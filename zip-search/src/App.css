@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button{
+  padding: 5px;
+  margin: 5px;
+  border-color: blue;
+  border-width: 2px;
+  color: rgb(0, 100, 42);
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  text-transform:uppercase;
+  
+}
+input{
+  padding: 5px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border-color: blue;
+  border-width: 2px;
+}
+.container{
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 10px;
+  width: fit-content;
+}
+.cityDetails{
+  /* border-radius: 10px;
+  background-color:cadetblue;
+  padding: 10px;
+margin: 10px;
+  align-self: center;
+  width: fit-content; */
+  border-radius: 10px;
+  background-color:cadetblue;
+  padding: 10px;
+  width: fit-content;
+}
+.cityName{
+  background-color: chartreuse;
+  margin: 15px;
+ 
+  padding: 10px;
+
+}
+.eachCity{
+  background-color: #61dafb;
+  text-align: center;
+  contain: content;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}

@@ -89,3 +89,6 @@ margin: 10px;
   margin: 10px;
   border-radius: 10px;
 }
+.cityCodes{
+  width: fit-content;
+}
